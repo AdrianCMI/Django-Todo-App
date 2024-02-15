@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container py-5">
+<section class="card card-body">
+    <h1 class="display-1 text-center">To-Do App</h1>
+    <p>This is the home page</p>
+    <p>Dolore cillum anim nisi irure labore excepteur. Nisi amet consectetur officia amet pariatur laborum sunt fugiat qui do. Id qui deserunt irure reprehenderit non voluptate consequat id deserunt magna non dolore dolor sunt. Dolore consectetur eu irure culpa sit non esse minim voluptate eu id esse. Labore tempor anim sint incididunt dolore. Deserunt qui nostrud irure qui voluptate officia in anim anim irure magna cillum. Ad non eu amet proident duis eiusmod minim aute non.</p>
+    <div class="text-center">
+        <a class="btn btn-secondary" href="{% url 'signin' %}">
+            Sign In
+        </a>
+        <a class="btn btn-dark" href="{% url 'signup' %}">
+            Sign Up
+        </a>
+    </div>
+</section>
+</main>
+{% endblock %}
